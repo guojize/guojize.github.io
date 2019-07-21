@@ -21,7 +21,7 @@ ballTurtle.penup()
 ballDirection = random.randint(-60, 60)
 ballTurtle.left(ballDirection)
 gameSpeed = 0.15
-randomRotate = 0
+randomRotate = 10
 
 globalSideGapRatio = 0.025
 globalWidthGap = globalScreenSize[0] * globalSideGapRatio
