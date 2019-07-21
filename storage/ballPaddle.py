@@ -32,14 +32,14 @@ heightBrick = 20
 blocks = []
 numBricksRow = 10
 numRows = 4
-paddleSize = (40, 10)
+paddleSize = (60, 10)
 moveDistance = 20
 paddleTurtle = turtle.Turtle()
 paddleTurtle.penup()
 paddleTurtle.goto((0, -200))
 paddleTurtle.right(90)
 paddleTurtle.shape('square')
-paddleTurtle.shapesize(0.5, 3)
+paddleTurtle.shapesize(paddleSize[1] / 20, paddleSize[0] / 20)
 
 #Helper Functions
 #Method that returns the location of the left side of the ball as a float
